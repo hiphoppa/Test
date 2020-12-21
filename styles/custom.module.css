@@ -1,0 +1,70 @@
+.font {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.white {
+    color: #fff;
+}
+
+.background {
+    background-color: #d4d3d3;
+}
+
+.backT {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(48, 198, 236);
+    position: absolute;
+    top: 38px;
+    left: 43px;
+    transition: all 0.2s ease;
+    opacity: 0;
+    z-index: 2;
+}
+
+.position {
+    position: relative;
+}
+
+.twitter {
+    transition: all 0.2s ease-out;
+}
+
+.twitter:hover .backT {
+    opacity: 1;
+    transform: scale(7);
+}
+
+.twitter:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    z-index: 3;
+}
+
+.google {
+    transition: all 0.2s ease-out;
+}
+
+.google:hover .backG {
+    opacity: 1;
+    transform: scale(7);
+}
+
+.backG {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(247, 45, 38);
+    position: absolute;
+    top: 38px;
+    left: 40px;
+    transition: all 0.2s ease;
+    opacity: 0;
+    z-index: 2;
+}
+
+.google:hover {
+    transform: scale(1.1);
+}
