@@ -6,7 +6,10 @@ First,intstall node_modules:
 
 npm i
 
-then, run the development server:
+then, install bootstrap and font-awesome with:
+npm i bootstrap font-awesime
+
+finally, run the development server:
 
 ```bash
 npm run dev
